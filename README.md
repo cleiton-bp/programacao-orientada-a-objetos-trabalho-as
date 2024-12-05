@@ -116,7 +116,7 @@ O projeto utiliza a anotação `@Autowired` do Spring para injeção de dependê
 
 3. Compile e execute o projeto:
     ```bash
-    
+    ./gradlew bootRun
     ```
 
 4. Acesse a aplicação em `http://localhost:5553`.
