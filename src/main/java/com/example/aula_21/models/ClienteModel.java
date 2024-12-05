@@ -11,8 +11,8 @@ import lombok.Setter;
 @Setter
 @Entity
 public class ClienteModel extends BaseModel {
-    public @Id @GeneratedValue(strategy = GenerationType.AUTO) long Id;
-    public String Nome;
-    public int Idade;
-    public String Profissao;
+    private @Id @GeneratedValue(strategy = GenerationType.AUTO) long Id;
+    private String Nome;
+    private int Idade;
+    private String Profissao;
 }
